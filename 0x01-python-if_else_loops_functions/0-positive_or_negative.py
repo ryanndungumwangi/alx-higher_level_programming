@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-# YOUR CODE HERE
+# Check if a number is +ve, -ve or zero
 if number > 0:
     print(f"{number % 10} is positive")
 elif number == 0:
